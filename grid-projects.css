@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  height:100%;
+  grid-gap: 3px;
+  grid-template-columns: 1fr 12fr 1fr;
+  grid-template-rows: 100px 250px auto auto auto;
+  grid-template-areas:
+  ". h ."
+  ". c ."
+  ". i ."
+  ". s ."
+  ". d ."
+  ". f .";
+}
+
+.header {
+    grid-area: h;
+}
+
+.content {
+    grid-area: c;
+}
+
+.image {
+    grid-area: i;
+}
+
+.slideshow-container {
+  grid-area: s;
+}
+
+.footer {
+    grid-area: f;
+}
+
+.dots {
+  grid-area: d;
+}
