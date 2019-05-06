@@ -3,13 +3,14 @@
   height:100%;
   grid-gap: 3px;
   grid-template-columns: 1fr 12fr 1fr;
-  grid-template-rows: 100px 250px auto auto auto;
+  grid-template-rows: 100px 150px auto auto;
   grid-template-areas:
   ". h ."
   ". c ."
-  ". i ."
-  ". s ."
-  ". d ."
+  ". flex ."
+  ". flex2 ."
+  ". flex3 ."
+  ". flex4 ."
   ". f .";
 }
 
@@ -21,18 +22,77 @@
     grid-area: c;
 }
 
-.image {
-    grid-area: i;
-}
-
-.slideshow-container {
-  grid-area: s;
-}
-
 .footer {
     grid-area: f;
 }
 
-.dots {
-  grid-area: d;
+
+.flex-container {
+  grid-area: flex;
+  display: flex;
+  flex-flow: row wrap;
+  height: 300px;
+  justify-content: flex-start;
+  border-top: 1px solid #f0eeee;
 }
+
+.flex-container2 {
+  grid-area: flex2;
+  display: flex;
+  flex-flow: row wrap;
+  height: 300px;
+  justify-content: flex-start;
+  border-top: 1px solid #f0eeee;
+}
+.flex-container3 {
+  grid-area: flex3;
+  display: flex;
+  flex-flow: row wrap;
+  height: 300px;
+  justify-content: flex-start;
+  border-top: 1px solid #f0eeee;
+}
+.flex-container4 {
+  grid-area: flex4;
+  display: flex;
+  flex-flow: row wrap;
+  height: 300px;
+  justify-content: flex-start;
+  border-top: 1px solid #f0eeee;
+}
+
+
+.flex-item {
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  font-size: 3em;
+}
+
+.project-logo {
+  width: 200px;
+  height: 150px;
+  margin-right: 10px;
+  margin: auto;
+}
+
+.description {
+  padding: 5px;
+  max-width: 800px;
+  margin-top: auto;
+  font-size: 3em;
+}
+.project-name {
+  margin-top: 4.3em;
+  font-size: 3em;
+  font-weight: bold;
+}
+.frameworks {
+  justify-content: flex-end;
+  margin: auto;
+  font-size: 3em;
+}
+
+/* add a flexbox css inside the content grid to make it responsive images
+easier and link the projects to github with ease */
