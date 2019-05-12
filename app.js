@@ -27,5 +27,3 @@ getID("dot3").onclick = function() {
    removeActive();
    addActive("3");
  }
-
- 

@@ -21,18 +21,19 @@ html, body {
 
 .content {
   font-size: 2.5em;
-  margin-bottom: 2em;
   text-align: center;
+  padding: 4%;
 }
 
 #welcome {
   width: 60%;
+  margin: auto;
 }
 
 h1 {
   font-size: 2.5em;
   line-height: 1.5em;
-  margin-bottom: 0.2em;
+  margin: 1%;
 }
 
 .footer {
@@ -104,7 +105,7 @@ padding: 5px;
 width: 100%;
 height: auto;
 max-height: 500px;
-padding-bottom: 2em;
+padding-bottom: 2%;
 }
 
 .slideshow-container  {
@@ -112,7 +113,7 @@ padding-top: 8em 8em 8em 8em;
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),
             0 2px 4px 0 rgba(0,0,0,0.08);
 border-top: 1px solid #f0eeee;
-  }
+}
 
 /* slides */
 .slideshow-container {
@@ -121,14 +122,14 @@ border-top: 1px solid #f0eeee;
   background-color: rgb(245, 245, 245);
 }
 .slides-img {
-  padding: 4em 0 4em 4em;
+  padding: 2% 2% 2% 2%;
   width: 50%;
   height: auto;
   max-height: 300px;
 }
 
 .inner-container {
-  padding:4em 3em 0em 0em;
+  padding:4em 0em 0em 0em;
   float: right;
   width: 40%;
   height: auto;
@@ -180,7 +181,7 @@ p {
 
 .dots {
   text-align: center;
-  padding: 2em 0 2em 0;
+  padding: 2%;
 }
 
 #dot1:hover, #dot2:hover, #dot3:hover {
@@ -189,6 +190,9 @@ p {
 
 .contact-me {
   border-top: 1px solid #f0eeee;
+  font-size: 2.5em;
+  text-align: center;
+  padding: 2% 0% 2% 0%;
 }
 .button {
   width: 10%;
@@ -200,4 +204,19 @@ p {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.slide-arrow {
+  width: 10%;
+  height: 10%;
+  display: flex;
+  float: right;
+  margin: auto;
+  position:relative;
+  right:-50px;
+  top: -170px;
+  /* center verticaly */
+  font-size: 30px;
+  background-color: #bbb;
+  padding: 10px;
 }
