@@ -3,15 +3,25 @@
   height:100%;
   grid-gap: 3px;
   grid-template-columns: 1fr 12fr 1fr;
-  grid-template-rows: 100px 250px auto auto auto auto auto;
+  grid-template-rows: 100px auto auto;
   grid-template-areas:
   ". h ."
+  ". m ."
+  ". f .";
+}
+
+.main {
+  grid-area: m;
+  display: grid;
+  height:100%;
+  grid-gap: 3px;
+  grid-template.rows: 250px auto auto auto auto;
+  grid-template-areas:
   ". c ."
   ". i ."
   ". s ."
   ". d ."
-  ". e ."
-  ". f .";
+  ". e .";
 }
 
 .header {
