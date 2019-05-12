@@ -12,10 +12,9 @@
 
 .main {
   grid-area: m;
-  display: grid;
   height:100%;
   grid-gap: 3px;
-  grid-template.rows: 250px auto auto auto auto;
+  grid-template-rows: 250px auto auto auto auto;
   grid-template-areas:
   ". c ."
   ". i ."
