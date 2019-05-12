@@ -94,5 +94,18 @@
   font-size: 3em;
 }
 
+ul > li > img {
+  width: auto;
+  height: auto;
+  max-width: 40px;
+  max-height: 40px;
+  padding: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+
 /* add a flexbox css inside the content grid to make it responsive images
 easier and link the projects to github with ease */
