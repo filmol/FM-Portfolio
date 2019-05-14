@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  height:100%;
+  grid-gap: 3px;
+  grid-template-columns: 1fr 12fr 1fr;
+  grid-template-rows: 100px auto auto;
+  grid-template-areas:
+  ". h ."
+  ". m ."
+  ". f .";
+}
+
+.main {
+    grid-area: m;
+}
+
+.header {
+    grid-area: h;
+}
+
+.footer {
+    grid-area: f;
+}
