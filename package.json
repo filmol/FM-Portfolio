@@ -1,0 +1,26 @@
+{
+  "name": "moltzer-design",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipmoltzer/FM-Portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Fm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filipmoltzer/FM-Portfolio/issues"
+  },
+  "homepage": "https://github.com/filipmoltzer/FM-Portfolio#readme"
+}
