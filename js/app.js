@@ -1,3 +1,12 @@
+
+// Github pointer when hovering.
+document.getElementById("github-logo").style.cursor = "pointer";
+// Github link to logo, open in new tab
+document.getElementById("github-logo").onclick = function() {
+    window.open("https://github.com/filipmoltzer","_blank");
+};
+
+
 const getClass = function (h) {
  return document.getElementsByClassName(h)[0];
 }
