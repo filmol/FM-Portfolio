@@ -1,11 +1,8 @@
 
-// Github pointer when hovering.
-document.getElementById("github-logo").style.cursor = "pointer";
-// Github link to logo, open in new tab
-document.getElementById("github-logo").onclick = function() {
-    window.open("https://github.com/filipmoltzer","_blank");
-};
+const body = document.querySelector(".container")
 
+// Check if its home page
+if (body.classList.contains("home")) {
 
 const getClass = function (h) {
  return document.getElementsByClassName(h)[0];
@@ -36,3 +33,15 @@ getID("dot3").onclick = function() {
    removeActive();
    addActive("3");
  }
+}
+
+// if it's not homepage
+else {
+const githubLogo = document.getElementById("github-logo");
+// Github pointer when hovering.
+githubLogo.style.cursor = "pointer";
+// Github link to logo, open in new tab
+githubLogo.onclick = function() {
+    window.open("https://github.com/filipmoltzer","_blank");
+};
+}
