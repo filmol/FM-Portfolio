@@ -112,6 +112,8 @@ max-height: 500px;
 padding-bottom: 3%;
 }
 
+
+
 .slideshow-container  {
 padding-top: 8em 8em 8em 8em;
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),
@@ -223,4 +225,8 @@ p {
   font-size: 30px;
   background-color: #bbb;
   padding: 10px;
+}
+
+.construction {
+  text-align: center;
 }
