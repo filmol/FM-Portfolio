@@ -28,6 +28,13 @@
   margin: auto;
 }
 
+.udacity {
+  max-width: 750px;
+  height: auto;
+  margin: auto;
+  padding-top: 10%;
+}
+
 h1 {
   font-size: 30px;
   text-align: center;
