@@ -28,15 +28,15 @@
 
 .flex-item {
   padding: 5px;
-  width: 200px;
-  height: 150px;
+  width: auto;
+  height: 300px;
   margin-top: 10px;
   font-size: 3em;
 }
 
 .project-logo {
-  width: 200px;
-  height: 150px;
+  width: auto;
+  height: 300px;
   margin-right: 10px;
   margin: auto;
 }
@@ -48,9 +48,9 @@
   font-size: 3em;
 }
 .project-name {
-  margin-top: 4.3em;
-  font-size: 3em;
-  font-weight: bold;
+  font-size: 4em;
+  text-align: -webkit-center;
+  margin-top: 5%;
 }
 .frameworks {
   justify-content: flex-end;
@@ -70,6 +70,13 @@ li {
   list-style-type: none;
 }
 
+.visitProject {
+  font-size: 4em;
+  border: solid;
+  width: fit-content;
+  border-radius: 15px;
+  margin: auto;
+}
 
 /* add a flexbox css inside the content grid to make it responsive images
 easier and link the projects to github with ease */

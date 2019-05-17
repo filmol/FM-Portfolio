@@ -41,12 +41,12 @@ else if (body.classList.contains("memory-game")) {
 }
 
 else if (body.classList.contains("projects")) {
-  const memoryImg = document.getElementById("memoryImage");
+  const memory_Game = document.getElementById("memoryGame");
 
-  memoryImg.style.cursor = "pointer"
+  memory_Game.style.cursor = "pointer"
 
-  memoryImg.onclick = function() {
-    window.open("/Users/filipmoltzer/Desktop/UDACITY 2.0/P2 - Memory Game/index.html");
+  memory_Game.onclick = function() {
+    window.open("https://filipmoltzer.github.io/FM-Portfolio/Memory_Game.index.html");
   };
 }
 
