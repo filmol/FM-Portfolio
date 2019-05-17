@@ -71,10 +71,7 @@ li {
 }
 
 .visitProject {
-  font-size: 4em;
-  border: solid;
   width: fit-content;
-  border-radius: 15px;
   margin: auto;
 }
 
