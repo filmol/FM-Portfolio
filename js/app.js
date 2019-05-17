@@ -46,7 +46,7 @@ else if (body.classList.contains("projects")) {
   memory_Game.style.cursor = "pointer"
 
   memory_Game.onclick = function() {
-    window.open("https://filipmoltzer.github.io/FM-Portfolio/Memory_Game.index.html");
+    window.open("https://filipmoltzer.github.io/FM-Portfolio/Memory_Game/index.html");
   };
 }
 
