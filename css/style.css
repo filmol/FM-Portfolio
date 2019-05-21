@@ -236,7 +236,7 @@ p {
 }
 
 /* slides information */
-article {
+.memoryInfo {
   font-size: 15px;
   text-align: center;
 }
