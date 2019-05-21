@@ -33,12 +33,12 @@ getID("dot3").onclick = function() {
    removeActive();
    addActive("3");
  }
+ getID("memoryGame").style.cursor = "pointer";
+ getID("memoryGame").onclick =
+ function () {window.open("https://filipmoltzer.github.io/FM-Portfolio/Memory_Game/index.html");}
 }
 
-// Check if it's Memory Game page
-else if (body.classList.contains("memory-game")) {
 
-}
 
 else if (body.classList.contains("projects")) {
   const memory_Game = document.getElementById("memoryGame");

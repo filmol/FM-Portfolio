@@ -127,15 +127,16 @@ border-top: 1px solid #f0eeee;
   margin: auto;
   background-color: rgb(245, 245, 245);
 }
+
 .slides-img {
-  padding: 2% 2% 2% 2%;
-  width: 50%;
-  height: auto;
+  width: 40%;
+  margin: 2% 5% 2% 5%;
+  max-width: 400px;;
   max-height: 300px;
 }
 
 .inner-container {
-  padding:4em 0em 0em 0em;
+  margin: 2% 5% 2% 5%;
   float: right;
   width: 40%;
   height: auto;
@@ -231,5 +232,11 @@ p {
 }
 
 .construction {
+  text-align: center;
+}
+
+/* slides information */
+article {
+  font-size: 15px;
   text-align: center;
 }
