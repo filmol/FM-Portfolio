@@ -93,9 +93,11 @@ text-align: center;
 }
 
 a:hover {
-  border-bottom: 5px solid #357099;
-  border-radius: 3px;
-  transition: all .5s;
+  border: 5px solid #357099;
+  border-radius: 5px;
+  background-color: #357099;
+  color: white;
+  transition: all 0.2s;
 }
 
 a {
@@ -160,12 +162,7 @@ h2 {
     margin-bottom: 1.5em;
 }
 
-p {
-    padding: 2em 2em 2em 2em;
-    font-size: 2.5em;
-    line-height: 2em;
-    margin-bottom: 1.5em;
-}
+
 
 #dot1, #dot2, #dot3 {
   cursor: pointer;
@@ -239,4 +236,26 @@ p {
 .memoryInfo {
   font-size: 15px;
   text-align: center;
+}
+
+
+/* contacts style */
+.contactLogo {
+max-height: 50px;
+width: auto;
+margin: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 0px;
+  justify-content: center;
+  text-align: center;
+}
+
+p {
+    font-size: 1.5em;
 }
