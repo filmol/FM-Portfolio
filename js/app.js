@@ -35,7 +35,7 @@ getID("dot3").onclick = function() {
  }
  getID("memoryGame").style.cursor = "pointer";
  getID("memoryGame").onclick =
- function () {window.open("https://filipmoltzer.github.io/FM-Portfolio/projects.html");}
+ function () {window.open("https://filipmoltzer.github.io/FM-Portfolio/projects.html", "_self");}
 }
 
 
@@ -58,6 +58,6 @@ const githubLogo = document.getElementById("github-logo");
 githubLogo.style.cursor = "pointer";
 // Github link to logo, open in new tab
 githubLogo.onclick = function() {
-    window.open("https://github.com/filipmoltzer","_blank");
+    window.open("https://github.com/filipmoltzer");
 };
 }
