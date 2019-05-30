@@ -35,7 +35,7 @@ getID("dot3").onclick = function() {
  }
  getID("memoryGame").style.cursor = "pointer";
  getID("memoryGame").onclick =
- function () {window.open("https://filipmoltzer.github.io/FM-Portfolio/Memory_Game/index.html");}
+ function () {window.open("https://filipmoltzer.github.io/FM-Portfolio/projects.html");}
 }
 
 

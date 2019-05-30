@@ -16,8 +16,7 @@ html, body {
 }
 
 .nav {
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding: 4em 1em 4em 1em;
   border-bottom: 1px solid #f0eeee;
 }
 
