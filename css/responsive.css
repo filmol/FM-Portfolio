@@ -1,20 +1,68 @@
-@media all and (max-width: 800px) {
 
+
+@media only screen and (min-width: 600px) {
+.dropbtn {
+  display:none;
+}
+.dropdown {
+  display: none;
+}
+}
+
+@media only screen and (max-width: 600px) {
 .nav-right > a {
-    font-size: 35px;;
-  }
-
-.nav-right {
-  float: none;
+  display: none;
 }
 
-.giphy-embed {
-  width: 50%;
-  height: 50%;
+
+
+.dropbtn {
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  margin-top: 20px;
+  margin-right: 25%;
+  width: 100px;
 }
 
-/* *TODO* 
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 15px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 25px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+
+}
+}
+/* Styling for animated hamburger iconl */
+
+
+/* *TODO*
 RESPONSIVE HOW DO YOU DO????
 UDACITY  */
