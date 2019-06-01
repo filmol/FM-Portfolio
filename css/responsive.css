@@ -1,3 +1,7 @@
+.main {
+  min-height: 800px;
+}
+
 
 
 @media only screen and (min-width: 600px) {
@@ -13,6 +17,9 @@
 .nav-right > a {
   display: none;
 }
+.myLogo {
+
+}
 
 
 
@@ -21,16 +28,16 @@
   border: none;
   cursor: pointer;
   text-align: center;
+  margin-bottom: 5%;
 }
 
 .dropdown {
-  position: relative;
+  position: absolute;
   display: inline-block;
-  vertical-align: middle;
-  float: right;
+  /* float: right; */
   margin-top: 20px;
-  margin-right: 25%;
-  width: 100px;
+  margin-left: 5%;
+  width: 60%;
 }
 
 .dropdown-content {
@@ -40,6 +47,8 @@
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   margin-top: 15px;
+  width: 95%;
+  margin: auto;
 }
 
 .dropdown-content a {
@@ -48,11 +57,10 @@
   text-decoration: none;
   display: block;
   font-size: 25px;
+  text-align: center;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
+.dropdown: .dropdown-content {
   display: block;
 }
 
