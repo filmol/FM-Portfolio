@@ -1,5 +1,5 @@
-let menu = document.getElementsByClassName("dropbtn")[0]
-let counter = 0;
+  // check if the menu is already pressed
+ let counter = 0;
 
 // Checks if menu is open
 let menuOpen = function () {
@@ -13,6 +13,7 @@ let menuOpen = function () {
   }
 }
 
+let menu = document.getElementsByClassName("dropbtn")[0]
 menu.addEventListener("click", menuOpen);
 
 // Closes Dropdown menu if main is clicked
